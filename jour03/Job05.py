@@ -6,7 +6,7 @@ class Personnage:
         self.vie = vie
 
     def attaquer(self, adversaire):
-        degats = random.randint(5, 10)  # Damage is random for simplicity
+        degats = random.randint(5, 10)  
         adversaire.vie -= degats
         print(f"{self.nom} attaque et inflige {degats} points de dégâts à {adversaire.nom}!")
 
